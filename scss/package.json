@@ -1,0 +1,17 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "Learning SCSS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch styles.scss styles.css"
+  },
+  "keywords": [
+    "scss"
+  ],
+  "author": "Nehalika",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}

@@ -1,0 +1,22 @@
+h1 {
+  color: purple;
+  background-color: pink;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  border: 2px solid burlywood;
+}
+header nav ul {
+  border: 2px solid orange;
+}
+header nav ul li {
+  color: aqua;
+}
+header nav ul li:first-child {
+  color: rgb(105, 169, 8);
+  font-weight: bolder;
+  font-size: larger;
+}
+
+/*# sourceMappingURL=styles.css.map */

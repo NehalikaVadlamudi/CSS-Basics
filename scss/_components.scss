@@ -1,0 +1,15 @@
+h1
+    {
+        color: $heading-1-color;
+        background-color: $heading-1-background-color;
+        font-family: $heading-1-font;
+    }
+
+%generic-block-style
+    {
+
+        border: 3px dashed slateblue;
+        padding:5px;
+        margin: 10px;
+
+    }

@@ -1,0 +1,4 @@
+@mixin block-highlight($color:$heading-2-color,$style:dotted)
+    {
+        border: 2px $style $color;
+    }

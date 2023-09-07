@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'components';
+@import 'functions';
+
+    
+header
+    {
+        border: 2px solid burlywood;
+            nav
+                {
+                    ul
+                    {
+                        @include block-highlight($style:solid);
+                        li
+                        {
+                           color:aqua
+                        }
+                        li:first-child
+                        {
+                            color:rgb(105, 169, 8);
+                            font-weight: bolder;
+                            font-size: larger;
+                        }
+                    }
+                }
+    }
+
+footer
+    {
+       @extend %generic-block-style;
+       font-size: 2rem;
+    }
