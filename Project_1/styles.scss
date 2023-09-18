@@ -1,15 +1,6 @@
-h1{
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 body{
     div.container{
                         div.header{
-                            width: 1280px;
-                            height: 382px;
-                            //border: 0px 0px 8px 0px;
-                            
-
                             p.Heading{
                                 font-size: 32px;
                                 font-weight: bold;
@@ -17,15 +8,15 @@ body{
                                 width: 180px;
                                 height: 38px;
                                 position: relative;
-                                top: 15px;
-                                left: 400px;
+                                 top: 15px;
+                                left: 380px;
                             }
                             div.Line-1{
                                 width: 350px;
                                 height: 60px;
                                 position: relative;
                                 top: 20px;
-                                left: 400px;
+                                left: 380px;
                                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
                                 p{
@@ -41,28 +32,29 @@ body{
                                         position: relative;
                                         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                                         top: 15px;
-                                        left: 400px;
+                                        left: 380px;
                                 
                                     }
                         }
 
                         div.main{
                             background-color:#666666;
-                            ;
-                            width: 1310px;
-                            height: 390px;
+                            width: 1305px;
+                            height: 380px;
                             position: relative;
                             top: 25px;
-
+                            border:1px solid #999999;
+                            border-top: 8px solid #999999;
+                            
                             div.card{
-                                width: 635px;
+                                width: 630px;
                                 height: 250px;
                                 position: relative;
                                 top: 55px;
                                 left: 350px;
-                                //border: 0px 0px 8px 0px;
                                 color: black;
-                                border: 2px solid #999999;
+                                border: 1px solid #999999;
+                                border-bottom:8px solid #999999 ;
                                 background-color: whitesmoke;
                                 
 
@@ -75,15 +67,14 @@ body{
                                 height: 40px;
                                 position: relative;
                                 top: 0px;
-                                //left: 35px;
+                                left: 0px;
                                 color: black;
                                 background-color: aquamarine;
-                                margin: 20px 20px 20px -10px;
-                                //box-shadow: #CC9900 ;
-                                border: 2px solid #CC9900;
+                                margin: 10px 10px 10px -8px;
+                                border-bottom: 8px solid #CC9900;
                                 background-color: #FFBF00;
-                                padding-left: 45px;
-
+                                padding-left: 30px;
+                                //margin-top: 55px;
                             }
                             div.card-line-1{
                                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -106,22 +97,241 @@ body{
                         }
                     }
                 }
-/*.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+ 
 
 
-  .container {
-    padding: 2px 16px;
-  }*/
-  main{
-        width: 1280px;
-        height: 450px;
-        top: 382px;
-        position: relative;
-      }
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    body{
+        div.container{
+           
+                            div.header{
+                                p.Heading{
+                                    font-size: 32px;
+                                    font-weight: bold;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    width: 180px;
+                                    height: 38px;
+                                    position: relative;
+                                    top: 15px;
+                                    left: 30px;
+                                }
+                                div.Line-1{
+                                    width: 350px;
+                                    position: relative;
+                                    top: 20px;
+                                    left: 30px;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    word-wrap: break-word;
+                                    p{
+                                        span{
+                                            color:hsl(160,100%,30%);
+                                            font-weight: bold;
+                                            }
+                                    }
+                                    }
+                                div.Line-2{
+                                            width: 270px;
+                                            position: relative;
+                                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                            top: 15px;
+                                            left: 30px;
+                                            word-wrap: break-word;
+                                        }
+                            }
+    
+                            div.main{
+                                background-color:#666666;
+                                width: 800px;
+                                height: 400px;
+                                position: relative;
+                                top: 25px;
+                                border:1px solid #999999;
+                                border-top: 8px solid #999999;
+                                
+                                div.card{
+                                    width: 768px;
+                                    height: 250px;
+                                    position: relative;
+                                    top: 65px;
+                                    left: 0px;
+                                    color: black;
+                                    border: 1px solid #999999;
+                                    border-bottom:8px solid #999999 ;
+                                    background-color: whitesmoke;
+                                    word-wrap: break-word;
+    
+                                
+                                p.Title{
+                                    font-size: 24px;
+                                    font-weight: bold;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    width: 380px;
+                                    height: 40px;
+                                    position: relative;
+                                    top: 0px;
+                                    left: 0px;
+                                    color: black;
+                                    background-color: aquamarine;
+                                    margin: 10px 10px 10px 0px;
+                                    border-bottom: 8px solid #CC9900;
+                                    background-color: #FFBF00;
+                                    padding-top: 5px;
+                                    padding-left: 30px;
+                                    word-wrap: break-word;
+                                }
+                                div.card-line-1{
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    width: 580px;
+                                    position: relative;
+                                    top:0px;
+                                    left: 0px;
+                                    padding-left: 30px;
+                                    word-wrap: break-word;
+                                }
+                                div.card-line-2{
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    width: 600px;
+                                    position: relative;
+                                    top:50px;
+                                    left:0px;
+                                    padding-left: 30px;
+                                    word-wrap: break-word;
+    
+                                }
+                            }
+                            }
+                        }
+                    }
+         
+
+}
+
+@media (max-width: 390px){
+
+    body{
+        div.container{
+           
+                            div.header{
+                                height: 300vw;
+                                p.Heading{
+                                    font-size: 20vw;
+                                    font-weight: bold;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    //width: 180px;
+                                    //height: 38px;
+                                    text-size-adjust: auto;
+                                    position: relative;
+                                    top: 15vw;
+                                    left: 30px;
+                                }
+                                div.Line-1{
+                                    width: 150vw;
+                                    font-size: 8vw;
+                                    text-size-adjust: auto;
+                                    position: relative;
+                                    top: 20vw;
+                                    left: 30px;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    word-wrap: break-word;
+                                    p{
+                                        span{
+                                            color:hsl(160,100%,30%);
+                                            font-weight: bold;
+                                            }
+                                    }
+                                    }
+                                div.Line-2{
+                                            //width: 270px
+                                            width: 150dvw;
+                                            font-size: 8vw;
+                                            position: relative;
+                                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                            padding-top: 20vw;
+                                            top: 27vw;
+                                            left: 30px;
+                                            word-wrap: break-word;
+                                        }
+                            }
+    
+                            div.main{
+                                background-color:#666666;
+                                //width: 800px;
+                                height: 500vw;
+                                position: relative;
+                                top: 382px;
+                                border:1px solid #999999;
+                                border-top: 8px solid #999999;
+                                
+                                div.card{
+                                    //width: 768px;
+                                    height: 350vw;
+                                    position: relative;
+                                    top: 65px;
+                                    left: 0px;
+                                    color: black;
+                                    border: 1px solid #999999;
+                                    border-bottom:8px solid #999999;
+                                    background-color: whitesmoke;
+                                    word-wrap: break-word;
+    
+                                
+                                p.Title{
+                                    font-size: 10vw;
+                                    font-weight: bold;
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    //width: 380px;
+                                    //height: 40px;
+                                    position: relative;
+                                    top: 0px;
+                                    left: 0px;
+                                    color: black;
+                                    background-color: aquamarine;
+                                    //margin: 0px 0px 0px 0vw;
+                                    //border-width:
+                                    //border-width: 100vw;
+                                    
+                                    border-bottom: 3vw solid #CC9900;
+                                    background-color: #FFBF00;
+                                    padding-top: 5px;
+                                    padding-left: 30px;
+                                    word-wrap: break-word;
+                                }
+                                div.card-line-1{
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    //width: 630px;
+                                    font-size: 10vw;
+                                    width: 120dvw;
+                                    position: relative;
+                                    top: 5vw;
+                                    left: 20px;
+                                    padding-left: 30px;
+                                    word-wrap: break-word;
+                                }
+                                div.card-line-2{
+                                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                    //width: 600px;
+                                    width: 120dvw;
+                                    font-size: 10vw;
+                                    position: relative;
+                                    top: 150vw;
+                                    left: 20px;
+                                    padding-top: 100px;
+                                    padding-left: 30px;
+                                    word-wrap: break-word;
+    
+                                }
+                            }
+                            }
+                        }
+                    }
+    
+}
